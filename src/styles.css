@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-ExtraLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.navbar {
+    background-color: #EDF1FE;
+  }
+  
+  .navbar-brand {
+    color: #FAAF40;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .nav-link {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #8FE669;
+  }
+  
+  .collapse.navbar-collapse {
+    background-color: #EDF1FE;
+  }
+  .smh {
+    color: black;
+    border: 2px solid#0036D2;
+    margin-left: 100px;
+  }
+  .smhs {
+    background-color: #0036D2;
+  }
+  
